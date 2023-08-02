@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head style="text-align: center;">
+        <title>Reistration form</title>
+        <link rel="stylefile" href="stylefile.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="script.js"></script>
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+        <div class="h2Css">
+            <h1 style="text-align: center;">Registration form</h1>
+        </div><hr>
+        <form class="formCss"><br>
+            <div id="classId">
+                Name<span style="color: red;">*</span>:<input type="text" name="Inputname" required>
+            </div><br>
+            <div id="email">
+                Email-Id <span style="color: red">*</span>:<input type="email" name="emailname" required>
+            </div><br>
+            <div>
+                Password <span style="color: red;">*</span>:<input type="password" name="password" required>
+            </div><br>
+            <div id="memberId">
+                Member-Id <span style="color: red">*</span>:<input type="number" name="number" required>
+            </div><br>
+            <div>
+                Enter mobile number:<span style="color: red;">*</span><input type="number" name="Number" required>
+             </div>
+                <br>
+            <div id="genderId">
+                Gender:
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="male" value="female">
+                <label for="female">female</label>
+            </div><br>
+            Date:<input type="date"><br><br>
+            <div id="technology">
+                Technologies known:
+                <input type="checkbox" id="ip1" name="checkname">
+                <label for="ip1">Java</label>
+                <input type="checkbox" id="ip2" name="checkname">
+                <label for="ip2">Web</label>
+                <input type="checkbox" id="ip3" name="checkname">
+                <label for="ip3">SQL</label>
+            </div><br>
+            <div class="space"> 
+                Username:<span class="req">*</span> 
+                   <input class="username" type="text" id="userId" value="" style="margin-left: 50px;" required> 
+                </div><br> 
+                <div class="space"> 
+                Password: 
+                    <input class="pass" type="text" id="passId" value="" style="margin-left: 60px;" required> 
+                </div><br> 
+                <div class="space"> 
+                Confirm Password: 
+                    <input class="conpass" type="text" id="confId" value="" required> 
+                </div><br> 
+                <div class="course"> 
+                        <label for="course">Course:</label> 
+                        <select id="course" name="course" style="margin-left: 60px;" required> 
+                            <option value="">Select a course</option> 
+                            <option value="B.E>">B.E.</option> 
+                            <option value="M-Tech">M-Tech</option> 
+                            <option value="B.sc">B.sc</option> 
+                            <option value="BCA">BCA</option> 
+                            <option value="Diploma">Diploma</option> 
+                        </select> 
+                </div><br> 
+            <button class="buttonclass" type="submit">Submit</button>
+            <button class="buttonclass1" type="reset">Reset</button>
+        </form>
+    </body>
+</html>
